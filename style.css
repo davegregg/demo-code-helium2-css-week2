@@ -1,0 +1,34 @@
+* {
+    /* outline: 2px dotted red; */
+}
+
+/* article, p, a, header, footer, div {
+    outline: 2px dotted salmon;
+} */
+
+.this-is-a-class {}
+
+.navigation {
+    /* background: red; */
+}
+
+.toc {
+    background: grey;
+}
+
+article > nav.navigation {
+    background: greenyellow;
+}
+
+[href*="wikipedia"] {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body > header:hover {
+    background: violet;
+}
+
+nav ul li:nth-child(2n) {
+    background-color: teal;
+}
